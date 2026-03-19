@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetrex Zurya — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#home" class="logo">
+            Poetrex <span>Zurya</span>
+        </a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="home-content reveal">
+            <p class="greeting-tag">// available for work</p>
+            <h1>Hi, It's <span>Poetrex</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p class="home-desc">Developer and UI/UX, as well as Front-End expert. Crafting digital experiences that leave an impression.</p>
+
+            <div class="social-icons">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn btn-primary">HIRE ME <i class="fa-solid fa-briefcase"></i></a>
+                <a href="#projects" class="btn btn-outline">My Work <i class="fa-solid fa-arrow-down"></i></a>
+            </div>
+        </div>
+
+        <div class="home-img reveal reveal-right">
+            <div class="img-glow-ring"></div>
+            <img src="assets/image.jpg" alt="Poetrex Zurya">
+        </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <div class="stats-bar">
+        <div class="stat-item">
+            <span class="stat-num" data-target="20">0</span><span>+</span>
+            <p>Projects Done</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+            <span class="stat-num" data-target="30">0</span><span>+</span>
+            <p>Years Coding</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+            <span class="stat-num" data-target="15">0</span><span>+</span>
+            <p>Happy Clients</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+            <span class="stat-num" data-target="100">0</span><span>%</span>
+            <p>Dedication</p>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <div class="section-tag reveal">— What I Do</div>
+        <h2 class="heading reveal">Services</h2>
+        <div class="services-container">
+            <div class="services-box reveal">
+                <div class="services-icon-wrap"><i class="fa-solid fa-code"></i></div>
+                <h3>Web Developer</h3>
+                <p>Building responsive websites with clean, efficient, and scalable code. Focused on performance, structure, and real-world usability.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="services-box reveal">
+                <div class="services-icon-wrap"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>Frontend Developer</h3>
+                <p>Creating interactive interfaces using modern technologies. Turning designs into smooth, responsive, and engaging web experiences.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="services-box reveal">
+                <div class="services-icon-wrap"><i class="fa-solid fa-pen-nib"></i></div>
+                <h3>UI Designer</h3>
+                <p>Designing visually appealing interfaces with attention to layout, color, and consistency to deliver a clean and modern user experience.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="services-box reveal">
+                <div class="services-icon-wrap"><i class="fa-solid fa-user-gear"></i></div>
+                <h3>UX Explorer</h3>
+                <p>Understanding user behavior and improving usability to create intuitive and meaningful digital experiences.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="services-box reveal">
+                <div class="services-icon-wrap"><i class="fa-solid fa-video"></i></div>
+                <h3>Content Creator</h3>
+                <p>Producing creative digital content, combining visuals and storytelling to communicate ideas effectively.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="services-box reveal">
+                <div class="services-icon-wrap"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                <h3>Hardware Technician</h3>
+                <p>Experienced assembling, troubleshooting, and maintaining computer hardware for optimal performance.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <div class="section-tag reveal">— My Work</div>
+        <h2 class="heading reveal">Projects</h2>
+        <div class="projects-container">
+            <div class="projects-box reveal">
+                <img src="image1.jpg" alt="Web Developer Project">
+                <div class="projects-info">
+                    <span class="project-tag">Web Dev</span>
+                    <h4>Web Developer</h4>
+                    <p>Responsive website with clean, efficient, and scalable code. Performance-focused and built for the real world.</p>
+                    <a href="#" class="btn">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="projects-box reveal">
+                <img src="image2.jpg" alt="Frontend Project">
+                <div class="projects-info">
+                    <span class="project-tag">Frontend</span>
+                    <h4>Frontend Dev</h4>
+                    <p>Smooth, responsive, engaging web experiences built with modern frontend technologies.</p>
+                    <a href="#" class="btn">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="projects-box reveal">
+                <img src="image3.jpg" alt="UI/UX Project">
+                <div class="projects-info">
+                    <span class="project-tag">UI/UX</span>
+                    <h4>UI/UX Design</h4>
+                    <p>Clean, modern, and intuitive interfaces designed with real users in mind.</p>
+                    <a href="#" class="btn">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION / TIMELINE -->
+    <section class="timeline-section" id="education">
+        <div class="section-tag reveal">— My Journey</div>
+        <h2 class="heading reveal">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2026</div>
+                <div class="timeline-content">
+                    <span class="tl-badge">🎓 Academic</span>
+                    <h3>High School</h3>
+                    <p>Graduated with focus on technology and design. First steps into coding, hardware, and digital creativity.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2026</div>
+                <div class="timeline-content">
+                    <span class="tl-badge">💼 Internship</span>
+                    <h3>Magang / Internship</h3>
+                    <p>Hands-on experience in a professional environment. Contributed to real projects and sharpened industry skills.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2027</div>
+                <div class="timeline-content">
+                    <span class="tl-badge">🏛️ University</span>
+                    <h3>Universitas</h3>
+                    <p>Currently pursuing higher education in Computer Science / Information Technology. Deepening expertise in software and design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="section-tag reveal">— Get In Touch</div>
+        <h2 class="heading reveal">Contact <span>Me</span></h2>
+        <form action="https://formspree.io/f/xeezyrwb" method="POST" class="reveal" novalidate>
+            <div class="input-box">
+                <div class="input-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                </div>
+                <div class="input-box">
+                <div class="input-group">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                </div>
+                <div class="input-group">
+                    <i class="fa-solid fa-tag"></i>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+            </div>
+            <div class="input-group textarea-group">
+                <i class="fa-solid fa-message"></i>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn">
+                Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <p class="footer-logo">Poetrex <span>Zurya</span></p>
+            <div class="social">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <ul class="list">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#home">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">© 2025 Poetrex Zurya — All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
